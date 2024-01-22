@@ -12,6 +12,17 @@ Vagrantfile is to boot up 3 servers with diff roles
 vagrant up
 ```
 
+## Vagrant CLI
+```sh
+vagrant status
+
+vagrant ssh <servername>
+
+vagrant halt <servername>
+
+vagrant destroy
+```
+
 ## Verify deployment
 Once the those machine have loaded, you can access http://127.0.0.1:8080 in your browser. You will find a web page that is being served from the guest virtual machine.
 
